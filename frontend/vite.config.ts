@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
-// https://vitejs.dev/config/
+// PWA configuration for StellarForge - enables app installation and offline support
 export default defineConfig({
   plugins: [
     react(),
